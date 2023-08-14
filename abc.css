@@ -1,0 +1,479 @@
+/* Reset some default styling */
+html{
+    scroll-behavior: smooth;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+  }
+  
+  /* Basic styles for the navbar */
+  .navbar {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo .img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-icon {
+    width: 25px;
+    height: 20px;
+    fill: #555;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #555;
+  }
+  
+  .nav-link:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+  /*navbar ends*/
+
+  /*Hero section*/
+  /* Basic styling for the section background */
+.custom-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-image: url('./actionvance-t7EL2iG3jMc-unsplash.jpg');
+    background-color: #374151; /* Fallback color */
+    height: 700px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for the section content */
+  .custom-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+    text-align: center;
+  }
+  
+  .custom-heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: white;
+    margin-bottom: 1rem;
+    /* margin: 50px; */
+  }
+  
+  .custom-paragraph {
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: #A0AEC0;
+    margin-bottom: 2rem;
+    /* margin-bottom: 50px; */
+  }
+  
+  /* Styling for the buttons */
+  .custom-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .custom-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 1rem;
+  }
+  
+  .custom-button-primary {
+    background-color: #1E40AF;
+    color: white;
+  }
+  
+  .custom-button-primary:hover {
+    background-color: #1C3D87;
+  }
+  
+  .custom-button-secondary {
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .custom-button-secondary:hover {
+    background-color: #F7FAFC;
+    color: #1A202C;
+    border-color: #1A202C;
+  }
+  
+  .custom-button-icon {
+    width: 14px;
+    height: 10px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  
+  /* Focus styling for buttons */
+  .custom-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .custom-button-secondary:focus {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Hover styling for buttons */
+  .custom-button:hover {
+    background-color: #1C3D87;
+  }
+  
+  .custom-button-secondary:hover {
+    background-color: #F7FAFC;
+    color: #1A202C;
+    border-color: #1A202C;
+  }
+  /*hero ends  */
+  
+
+  /*About course  */
+
+
+  .about-wrapper{
+    background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
+  }
+  .container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+    /*background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgba(0,0,0,0.0313375350140056) 100%); */
+
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+    color: #ccc;
+    margin: 50px;
+    border: double #555  5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.heading:hover{
+    color: black;
+    background-color: white;
+    border: solid white 5px;
+    transition: all 0.5s ease-in-out;
+    cursor:  pointer;
+}
+.subheading {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #ccc;
+}
+/* about course ends */
+
+
+/* <!-- course outline --> */
+/* Reset some default styles */
+
+.content-back{
+  background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
+  height: 500px;
+}
+
+.timeline-title-course{
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  color: #ccc;
+  margin: 50px;
+  border: double #555  5px;
+  border-radius: 20px;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+}
+
+.timeline-title-course:hover{
+  color: black;
+  background-color: white;
+  border: solid white 5px;
+  transition: all 0.5s ease-in-out;
+  cursor:  pointer;
+}
+
+/* Basic styling */
+.timeline {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-list {
+  position: relative;
+  list-style: none;
+  border-left: 2px solid #e2e8f0; /* Replace with desired color */
+  padding-left: 20px;
+}
+.timeline-list:hover{
+  box-shadow: 5px 5px #F7FAFC;
+  animation: all 0.7s ease-in-out;
+}
+
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0;
+  left: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: black; /* Replace with desired color */
+  border-radius: 50%;
+  
+}
+
+.timeline-icon {
+  width: 14px;
+  height: 14px;
+  fill: #4a90e2; /* Replace with desired color */
+}
+
+.timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: white; /* Replace with desired color */
+  /* gap: 20px; */
+}
+
+
+/* ttimeline ends */
+
+/* instructors */
+
+.inst-wrap{
+  background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.user-card {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  border: 1px solid #ccc; /* Replace with desired color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  margin: 20px;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.user-card-header {
+  /* Styles for the header */
+  
+}
+
+.user-card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-card-image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+}
+
+.user-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333; /* Replace with desired color */
+}
+
+.user-role {
+  font-size: 14px;
+  color: #666; /* Replace with desired color */
+  margin-bottom: 10px;
+}
+
+.user-actions {
+  display: flex;
+  margin-top: 10px;
+}
+
+.user-action-button {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #4a90e2; /* Replace with desired color */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.user-action-button:hover {
+  background-color: #357dc8; /* Replace with desired color */
+  cursor: pointer;
+}
+/* footer */
+
+
+
+.footer {
+  padding: 16px;
+  background-color: white;
+  border-top: 1px solid white; /* Replace with desired color */
+  color: ; /* Replace with desired color */
+  text-align: center;
+  background-image: url(./actionvance-t7EL2iG3jMc-unsplash.jpg);
+}
+
+.footer-content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white; /* Replace with desired color */
+}
+
+.footer-logo-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  /* Add SVG paths for the logo */
+}
+
+.footer-description {
+  margin: 20px 0;
+  font-size: 14px;
+  color: white; /* Replace with desired color */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.footer-links li {
+  margin-right: 12px;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: white;/* Replace with desired color */
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  display: block;
+  font-size: 12px;
+  color: white; /* Replace with desired color */
+  margin-top: 12px;
+}
+
+.footer-copyright a {
+  color: white; /* Replace with desired color */
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}
