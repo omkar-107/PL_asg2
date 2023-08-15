@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/7363e8969e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="abc.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
   <nav class="navbar">
     <div class="container">
@@ -16,12 +17,14 @@
         <div class="img" style="display: grid;place-items: center;"><i class="fa-solid fa-snowflake fa-2xl"></i></div>
         <span class="logo-text">Company</span>
       </a>
+
       <button class="menu-toggle" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="menu-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 14">
           <path d="M1 1h15M1 7h15M1 13h15" />
         </svg>
       </button>
+
       <ul class="navbar-menu" id="navbar-default">
         <li><a href="#" class="nav-link ">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
@@ -29,6 +32,17 @@
         <li><a href="#instructor" class="nav-link">Instructors</a></li>
         <li><a href="#" class="nav-link">Contact</a></li>
       </ul>
+
+      <!-- <i class="fa-solid fa-bars fa-2xl" id="hamburger-logo"></i> -->
+      <img src="./images/bars-solid.svg" alt="" width="30px" id="hamburger-logo">
+
+      <div class="hamburger-pane">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#Course-Outline">Course Outline</a>
+        <a href="#instructor">Instructors</a>
+        <a href="#">Contact</a>
+      </div>
     </div>
   </nav>
 
@@ -36,150 +50,193 @@
   <!-- hero section -->
   <section class="custom-bg">
     <div class="custom-content">
-        <h1 class="custom-heading">Invest in your potential</h1>
-        <p class="custom-paragraph">Here at .... we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-        <div class="custom-buttons">
-            <a href="#" class="custom-button custom-button-primary">
-                Get started
-                <svg class="custom-button-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-            <a href="#" class="custom-button custom-button-secondary">
-                Learn more
-            </a>  
-        </div>
+      <h1 class="custom-heading">Invest in your potential</h1>
+      <p class="custom-paragraph">Here at .... we focus on markets where technology, innovation, and capital can unlock
+        long-term value and drive economic growth.</p>
+      <div class="custom-buttons">
+        <a href="#" class="custom-button custom-button-primary">
+          Get started
+          <svg class="custom-button-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 14 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9" />
+          </svg>
+        </a>
+        <a href="#" class="custom-button custom-button-secondary">
+          Learn more
+        </a>
+      </div>
     </div>
-</section>
+  </section>
 
 
-<!-- about course -->
-<div class="about-wrapper" id="about">
-  <div class="container-about">
-    <h1 class="heading">About the Course</h1>
-    <p class="subheading"> The "Introduction to Blockchain Technology" course offers a comprehensive overview of blockchain's foundational concepts, applications, and implications. Blockchain technology has revolutionized the way data is stored, secured, and transmitted across various industries. This course is designed to provide students with a solid understanding of the underlying principles of blockchain, its potential applications beyond cryptocurrencies, and its impact on various sectors. Course Objectives: Foundational Understanding: Gain an in-depth understanding of the fundamental concepts of blockchain technology, including distributed ledgers, cryptographic principles, consensus mechanisms, and immutability. Blockchain Ecosystem: Explore the broader blockchain ecosystem, including public, private, and consortium blockchains, and understand the differences between permissioned and permissionless networks. Cryptocurrencies and Tokens: Examine the origins of blockchain with cryptocurrencies like Bitcoin, delve into the concept of tokens, and understand how they are created, managed, and used within blockchain networks. Smart Contracts: Learn about smart contracts and their potential to automate and enforce agreements, as well as their role in decentralized applications (DApps) and platforms like Ethereum. Decentralized Applications (DApps): Explore the development and deployment of decentralized applications, understanding their benefits, challenges, and real-world use cases. Consensus Mechanisms: Investigate various consensus mechanisms, such as Proof of Work (PoW), Proof of Stake (PoS), and others, and their impact on security, scalability, and energy efficiency. Blockchain Security: Delve into the security aspects of blockchain technology, including cryptographic techniques, secure key management, and protection against common attacks. Blockchain Interoperability: Understand the challenges and solutions related to interoperability between different blockchain networks and protocols. Use Cases and Industries: Study real-world use cases of blockchain technology across industries such as finance, supply chain, healthcare, and more, assessing its potential to disrupt traditional systems. Regulatory and Legal Considerations: Explore the evolving regulatory landscape surrounding blockchain technology and cryptocurrencies, considering both opportunities and challenges. Future Trends: Analyze emerging trends in blockchain technology, such as scalability solutions, privacy enhancements, and the integration of blockchain with other technologies like IoT and AI. Ethical and Societal Implications: Reflect on the ethical, social, and environmental implications of blockchain technology, including issues related to privacy, data ownership, and sustainability. Throughout the course, students will engage in a combination of lectures, hands-on activities, case studies, and discussions to reinforce their learning. By the end of the course, students should be equipped with a strong foundation in blockchain technology, enabling them to critically assess its potential applications and implications in various contexts. This course is suitable for individuals with varying degrees of technical background, as it balances technical explanations with practical insights</p>
-    <pre class="subheading"></pre>
+  <!-- about course -->
+  <div class="about-wrapper" id="about">
+    <div class="container-about">
+      <h1 class="heading">About the Course</h1>
+      <p class="subheading"> The "Introduction to Blockchain Technology" course offers a comprehensive overview of
+        blockchain's foundational concepts, applications, and implications. Blockchain technology has revolutionized the
+        way data is stored, secured, and transmitted across various industries. This course is designed to provide
+        students with a solid understanding of the underlying principles of blockchain, its potential applications
+        beyond cryptocurrencies, and its impact on various sectors. Course Objectives: Foundational Understanding: Gain
+        an in-depth understanding of the fundamental concepts of blockchain technology, including distributed ledgers,
+        cryptographic principles, consensus mechanisms, and immutability. Blockchain Ecosystem: Explore the broader
+        blockchain ecosystem, including public, private, and consortium blockchains, and understand the differences
+        between permissioned and permissionless networks. Cryptocurrencies and Tokens: Examine the origins of blockchain
+        with cryptocurrencies like Bitcoin, delve into the concept of tokens, and understand how they are created,
+        managed, and used within blockchain networks. Smart Contracts: Learn about smart contracts and their potential
+        to automate and enforce agreements, as well as their role in decentralized applications (DApps) and platforms
+        like Ethereum. Decentralized Applications (DApps): Explore the development and deployment of decentralized
+        applications, understanding their benefits, challenges, and real-world use cases. Consensus Mechanisms:
+        Investigate various consensus mechanisms, such as Proof of Work (PoW), Proof of Stake (PoS), and others, and
+        their impact on security, scalability, and energy efficiency. Blockchain Security: Delve into the security
+        aspects of blockchain technology, including cryptographic techniques, secure key management, and protection
+        against common attacks. Blockchain Interoperability: Understand the challenges and solutions related to
+        interoperability between different blockchain networks and protocols. Use Cases and Industries: Study real-world
+        use cases of blockchain technology across industries such as finance, supply chain, healthcare, and more,
+        assessing its potential to disrupt traditional systems. Regulatory and Legal Considerations: Explore the
+        evolving regulatory landscape surrounding blockchain technology and cryptocurrencies, considering both
+        opportunities and challenges. Future Trends: Analyze emerging trends in blockchain technology, such as
+        scalability solutions, privacy enhancements, and the integration of blockchain with other technologies like IoT
+        and AI. Ethical and Societal Implications: Reflect on the ethical, social, and environmental implications of
+        blockchain technology, including issues related to privacy, data ownership, and sustainability. Throughout the
+        course, students will engage in a combination of lectures, hands-on activities, case studies, and discussions to
+        reinforce their learning. By the end of the course, students should be equipped with a strong foundation in
+        blockchain technology, enabling them to critically assess its potential applications and implications in various
+        contexts. This course is suitable for individuals with varying degrees of technical background, as it balances
+        technical explanations with practical insights</p>
+      <pre class="subheading"></pre>
+    </div>
   </div>
-</div>
 
 
 
 
 
-<!-- course outline -->
-<div class="content-back" id="Course-Outline">
-  <div style="display: flex;justify-content: center;"><div class="timeline-title-course ">Course Outline</div></div>
-   
-<div class="timeline" id="timeline">
-  
-  <ol class="timeline-list">
-      <li class="timeline-item">
+  <!-- course outline -->
+  <div class="content-back" id="Course-Outline">
+    <div style="display: flex;justify-content: center;">
+      <div class="timeline-title-course ">Course Outline</div>
+    </div>
+
+    <div class="timeline" id="timeline">
+
+      <ol class="timeline-list">
+        <li class="timeline-item">
           <span class="timeline-dot">
-            <i class="fa-solid fa-circle-xmark "style ="color :#ffffff"></i>
+            <i class="fa-solid fa-circle-xmark " style="color :#ffffff"></i>
           </span>
           <h3 class="timeline-title">Introduction to Blockchain Concepts</h3>
-      </li>
-      <li class="timeline-item">
-        <span class="timeline-dot">
-          <i class="fa-solid fa-circle-xmark"style ="color :#ffffff"></i>
-        </span>
-        <h3 class="timeline-title">Decentralization and Consensus Mechanisms
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-dot">
+            <i class="fa-solid fa-circle-xmark" style="color :#ffffff"></i>
+          </span>
+          <h3 class="timeline-title">Decentralization and Consensus Mechanisms
           </h3>
-    </li>
-    <li class="timeline-item">
-      <span class="timeline-dot">
-        <i class="fa-solid fa-circle-xmark"style ="color :#ffffff"></i>
-      </span>
-      <h3 class="timeline-title">Smart Contracts and DApps
-       </h3>
-  </li>
-  <li class="timeline-item">
-    <span class="timeline-dot">
-      <i class="fa-solid fa-circle-xmark"style ="color :#ffffff"></i>
-    </span>
-    <h3 class="timeline-title"> Cryptocurrencies and Digital Wallets
-     </h3>
-</li>
-<li class="timeline-item">
-  <span class="timeline-dot">
-    <i class="fa-solid fa-circle-xmark"style ="color :#ffffff"></i>
-  </span>
-  <h3 class="timeline-title"> Security and Privacy in Blockchain
-    </h3>
-</li>
-<li class="timeline-item">
-  <span class="timeline-dot">
-    <i class="fa-solid fa-circle-xmark"style ="color :#ffffff"></i>
-  </span>
-  <h3 class="timeline-title">Real-world Use Cases of Blockchain Technology</h3>
-</li>
-  </ol>
-</div>
- 
-</div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-dot">
+            <i class="fa-solid fa-circle-xmark" style="color :#ffffff"></i>
+          </span>
+          <h3 class="timeline-title">Smart Contracts and DApps
+          </h3>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-dot">
+            <i class="fa-solid fa-circle-xmark" style="color :#ffffff"></i>
+          </span>
+          <h3 class="timeline-title"> Cryptocurrencies and Digital Wallets
+          </h3>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-dot">
+            <i class="fa-solid fa-circle-xmark" style="color :#ffffff"></i>
+          </span>
+          <h3 class="timeline-title"> Security and Privacy in Blockchain
+          </h3>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-dot">
+            <i class="fa-solid fa-circle-xmark" style="color :#ffffff"></i>
+          </span>
+          <h3 class="timeline-title">Real-world Use Cases of Blockchain Technology</h3>
+        </li>
+      </ol>
+    </div>
 
-<!-- instructor -->
-<div id="instructor" style="display: flex;justify-content: center;background-image: url(./actionvance-t7EL2iG3jMc-unsplash.jpg);"><div class="timeline-title-course ">Course Outline</div></div>
+  </div>
+
+  <!-- instructor -->
+  <div id="instructor"
+    style="display: flex;justify-content: center;background-image: url(./actionvance-t7EL2iG3jMc-unsplash.jpg);">
+    <div class="timeline-title-course ">Course Outline</div>
+  </div>
   <div class="inst-wrap">
-   
-    
+
+
     <div class="user-card">
       <div class="user-card-header">
-          <!-- Content for the header (if any) -->
-          
+        <!-- Content for the header (if any) -->
+
       </div>
       <div class="user-card-content">
-          <div class="user-card-image">
-              <img class="user-image" src="./actionvance-t7EL2iG3jMc-unsplash.jpg" alt="Bonnie image"/>
-          </div>
-          <h5 class="user-name">Bonnie Green</h5>
-          <span class="user-role">educator</span>
-          <div class="user-actions">
-              <a href="#" class="user-action-button">Connect</a>
-          </div>
+        <div class="user-card-image">
+          <img class="user-image" src="./actionvance-t7EL2iG3jMc-unsplash.jpg" alt="Bonnie image" />
+        </div>
+        <h5 class="user-name">Bonnie Green</h5>
+        <span class="user-role">educator</span>
+        <div class="user-actions">
+          <a href="#" class="user-action-button">Connect</a>
+        </div>
       </div>
     </div>
     <div class="user-card">
       <div class="user-card-header">
-          <!-- Content for the header (if any) -->
+        <!-- Content for the header (if any) -->
       </div>
       <div class="user-card-content">
-          <div class="user-card-image">
-              <img class="user-image" src="./actionvance-t7EL2iG3jMc-unsplash.jpg" alt="Bonnie image"/>
-          </div>
-          <h5 class="user-name">Bonnie Green</h5>
-          <span class="user-role">educator</span>
-          <div class="user-actions">
-              <a href="#" class="user-action-button">Connect</a>
-          </div>
+        <div class="user-card-image">
+          <img class="user-image" src="./actionvance-t7EL2iG3jMc-unsplash.jpg" alt="Bonnie image" />
+        </div>
+        <h5 class="user-name">Bonnie Green</h5>
+        <span class="user-role">educator</span>
+        <div class="user-actions">
+          <a href="#" class="user-action-button">Connect</a>
+        </div>
       </div>
+    </div>
+
+
   </div>
-
-
-</div>
-<!-- footer -->
-<footer class="footer">
-  <div class="footer-content">
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-content">
       <a href="#" class="footer-logo">
-          <svg class="footer-logo-icon" viewBox="0 0 33 33">
-              <!-- SVG paths for the logo -->
-          </svg>
-          Company
+        <svg class="footer-logo-icon" viewBox="0 0 33 33">
+          <!-- SVG paths for the logo -->
+        </svg>
+        Company
       </a>
-      <p class="footer-description">Open-source library of over 400+ web components and interactive elements built for better web.</p>
+      <p class="footer-description">Open-source library of over 400+ web components and interactive elements built for
+        better web.</p>
       <ul class="footer-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Premium</a></li>
-          <li><a href="#">Campaigns</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Affiliate Program</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Premium</a></li>
+        <li><a href="#">Campaigns</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Affiliate Program</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
       <span class="footer-copyright">
-          © 2021-2022 <a href="#">Company™</a>. All Rights Reserved.
+        © 2021-2022 <a href="#">Company™</a>. All Rights Reserved.
       </span>
-  </div>
-</footer>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/7363e8969e.js" crossorigin="anonymous"></script>
+  <script src="abc.js"></script>
+
 </body>
+
 </html>

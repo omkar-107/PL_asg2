@@ -1,266 +1,288 @@
 /* Reset some default styling */
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    
-  }
-  
-  /* Basic styles for the navbar */
-  .navbar {
-    background-color: white;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .container {
-    max-width: 100vw;
-    margin: 0 auto;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo .img {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .logo-text {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .menu-toggle {
-    border: none;
-    background: none;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .menu-icon {
-    width: 25px;
-    height: 20px;
-    fill: #555;
-  }
-  
-  .navbar-menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #555;
-  }
-  
-  .nav-link:hover {
-    background-color: blue;
-    color: white;
-    border-radius: 7px;
-    transition: all 0.2s ease-in-out;
-  }
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* Basic styles for the navbar */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo .img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon {
+  width: 25px;
+  height: 20px;
+  fill: #555;
+}
+
+.navbar-menu {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hamburger-logo {
+  display: none;
+}
+
+.hamburger-pane a {
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #555;
+}
+
+.nav-link:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
 
 
-  /*navbar ends*/
+/*navbar ends*/
 
-  /*Hero section*/
-  /* Basic styling for the section background */
+/*Hero section*/
+/* Basic styling for the section background */
 .custom-bg {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-image: url('./actionvance-t7EL2iG3jMc-unsplash.jpg');
-    background-color: #374151; /* Fallback color */
-    height: 700px;
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Styling for the section content */
-  .custom-content {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 6rem 1rem;
-    text-align: center;
-  }
-  
-  .custom-heading {
-    font-size: 2.25rem;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    color: white;
-    margin-bottom: 1rem;
-    /* margin: 50px; */
-  }
-  
-  .custom-paragraph {
-    font-size: 1.125rem;
-    font-weight: normal;
-    color: #A0AEC0;
-    margin-bottom: 2rem;
-    /* margin-bottom: 50px; */
-  }
-  
-  /* Styling for the buttons */
-  .custom-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  
-  .custom-button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.75rem 1.25rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 1rem;
-  }
-  
-  .custom-button-primary {
-    background-color: #1E40AF;
-    color: white;
-  }
-  
-  .custom-button-primary:hover {
-    background-color: #1C3D87;
-  }
-  
-  .custom-button-secondary {
-    color: white;
-    border: 1px solid white;
-  }
-  
-  .custom-button-secondary:hover {
-    background-color: #F7FAFC;
-    color: #1A202C;
-    border-color: #1A202C;
-  }
-  
-  .custom-button-icon {
-    width: 14px;
-    height: 10px;
-    margin-left: 0.5rem;
-    vertical-align: middle;
-  }
-  
-  /* Focus styling for buttons */
-  .custom-button:focus {
-    outline: 0;
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-  
-  .custom-button-secondary:focus {
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
-  }
-  
-  /* Hover styling for buttons */
-  .custom-button:hover {
-    background-color: #1C3D87;
-  }
-  
-  .custom-button-secondary:hover {
-    background-color: #F7FAFC;
-    color: #1A202C;
-    border-color: #1A202C;
-  }
-  /*hero ends  */
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-image: url('./actionvance-t7EL2iG3jMc-unsplash.jpg');
+  background-color: #374151;
+  /* Fallback color */
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
 
-  /*About course  */
+/* Styling for the section content */
+.custom-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+.custom-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: white;
+  margin-bottom: 1rem;
+  /* margin: 50px; */
+}
+
+.custom-paragraph {
+  font-size: 1.125rem;
+  font-weight: normal;
+  color: #A0AEC0;
+  margin-bottom: 2rem;
+  /* margin-bottom: 50px; */
+}
+
+/* Styling for the buttons */
+.custom-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.custom-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 1rem;
+}
+
+.custom-button-primary {
+  background-color: #1E40AF;
+  color: white;
+}
+
+.custom-button-primary:hover {
+  background-color: #1C3D87;
+}
+
+.custom-button-secondary {
+  color: white;
+  border: 1px solid white;
+}
+
+.custom-button-secondary:hover {
+  background-color: #F7FAFC;
+  color: #1A202C;
+  border-color: #1A202C;
+}
+
+.custom-button-icon {
+  width: 14px;
+  height: 10px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Focus styling for buttons */
+.custom-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.custom-button-secondary:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+/* Hover styling for buttons */
+.custom-button:hover {
+  background-color: #1C3D87;
+}
+
+.custom-button-secondary:hover {
+  background-color: #F7FAFC;
+  color: #1A202C;
+  border-color: #1A202C;
+}
+
+/*hero ends  */
 
 
-  .about-wrapper{
-    background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
-  }
-  .container-about {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     flex-direction: column;
-    /*background: rgb(0,0,0);
+/*About course  */
+
+
+.about-wrapper {
+  background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
+}
+
+.container-about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgba(0,0,0,0.0313375350140056) 100%); */
 
 }
 
 .heading {
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 1;
-    color: #ccc;
-    margin: 50px;
-    border: double #555  5px;
-    border-radius: 20px;
-    padding: 20px;
-}
-.heading:hover{
-    color: black;
-    background-color: white;
-    border: solid white 5px;
-    transition: all 0.5s ease-in-out;
-    cursor:  pointer;
-}
-.subheading {
-    margin-bottom: 30px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #ccc;
-}
-/* about course ends */
-
-
-/* <!-- course outline --> */
-/* Reset some default styles */
-
-.content-back{
-  background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
-  height: 500px;
-}
-
-.timeline-title-course{
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 800;
   line-height: 1;
   color: #ccc;
   margin: 50px;
-  border: double #555  5px;
+  border: double #555 5px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.heading:hover {
+  color: black;
+  background-color: white;
+  border: solid white 5px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.subheading {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ccc;
+}
+
+/* about course ends */
+
+
+/* <!-- course outline --> */
+/* Reset some default styles */
+
+.content-back {
+  background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
+  height: 500px;
+}
+
+.timeline-title-course {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  color: #ccc;
+  margin: 50px;
+  border: double #555 5px;
   border-radius: 20px;
   padding: 20px;
   width: fit-content;
   text-align: center;
 }
 
-.timeline-title-course:hover{
+.timeline-title-course:hover {
   color: black;
   background-color: white;
   border: solid white 5px;
   transition: all 0.5s ease-in-out;
-  cursor:  pointer;
+  cursor: pointer;
 }
 
 /* Basic styling */
@@ -274,12 +296,16 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 .timeline-list {
   position: relative;
   list-style: none;
-  border-left: 2px solid #e2e8f0; /* Replace with desired color */
+  border-left: 2px solid #e2e8f0;
+  /* Replace with desired color */
   padding-left: 20px;
 }
-.timeline-list:hover{
-  box-shadow: 5px 5px #F7FAFC;
-  animation: all 0.7s ease-in-out;
+
+.timeline-list:hover {
+  border-radius: 20px;
+  box-shadow: 0px 5px 40px 0px rgba(255, 255, 255, 0.18),
+    0px 5px 14px 0px rgba(139, 139, 139, 0.18);
+  animation: all 0.5s ease-in-out;
 }
 
 
@@ -297,15 +323,17 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   align-items: center;
   width: 24px;
   height: 24px;
-  background-color: black; /* Replace with desired color */
+  background-color: black;
+  /* Replace with desired color */
   border-radius: 50%;
-  
+
 }
 
 .timeline-icon {
   width: 14px;
   height: 14px;
-  fill: #4a90e2; /* Replace with desired color */
+  fill: #4a90e2;
+  /* Replace with desired color */
 }
 
 .timeline-title {
@@ -313,7 +341,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   font-weight: bold;
   margin-bottom: 5px;
   margin-left: 20px;
-  color: white; /* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
   /* gap: 20px; */
 }
 
@@ -322,7 +351,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 
 /* instructors */
 
-.inst-wrap{
+.inst-wrap {
   background-image: url(actionvance-t7EL2iG3jMc-unsplash.jpg);
   height: 500px;
   display: flex;
@@ -334,9 +363,11 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   width: 100%;
   max-width: 300px;
   background-color: white;
-  border: 1px solid #ccc; /* Replace with desired color */
+  border: 1px solid #ccc;
+  /* Replace with desired color */
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adjust shadow as needed */
   margin: 20px;
   overflow: hidden;
   max-height: 300px;
@@ -344,7 +375,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 
 .user-card-header {
   /* Styles for the header */
-  
+
 }
 
 .user-card-content {
@@ -360,7 +391,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   margin-bottom: 10px;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adjust shadow as needed */
 }
 
 .user-image {
@@ -373,12 +405,14 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #333; /* Replace with desired color */
+  color: #333;
+  /* Replace with desired color */
 }
 
 .user-role {
   font-size: 14px;
-  color: #666; /* Replace with desired color */
+  color: #666;
+  /* Replace with desired color */
   margin-bottom: 10px;
 }
 
@@ -394,16 +428,19 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   font-weight: bold;
   text-align: center;
   color: white;
-  background-color: #4a90e2; /* Replace with desired color */
+  background-color: #4a90e2;
+  /* Replace with desired color */
   border: none;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 .user-action-button:hover {
-  background-color: #357dc8; /* Replace with desired color */
+  background-color: #357dc8;
+  /* Replace with desired color */
   cursor: pointer;
 }
+
 /* footer */
 
 
@@ -411,8 +448,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 .footer {
   padding: 16px;
   background-color: white;
-  border-top: 1px solid white; /* Replace with desired color */
-  color: ; /* Replace with desired color */
+  border-top: 1px solid white;
+  /* Replace with desired color */
+  /* color: ; */
+  /* Replace with desired color */
   text-align: center;
   background-image: url(./actionvance-t7EL2iG3jMc-unsplash.jpg);
 }
@@ -428,7 +467,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   justify-content: center;
   font-size: 2rem;
   font-weight: bold;
-  color: white; /* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
 }
 
 .footer-logo-icon {
@@ -441,7 +481,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 .footer-description {
   margin: 20px 0;
   font-size: 14px;
-  color: white; /* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
 }
 
 .footer-links {
@@ -456,7 +497,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 
 .footer-links a {
   font-size: 14px;
-  color: white;/* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
 }
 
 .footer-links a:hover {
@@ -466,14 +508,59 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
 .footer-copyright {
   display: block;
   font-size: 12px;
-  color: white; /* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
   margin-top: 12px;
 }
 
 .footer-copyright a {
-  color: white; /* Replace with desired color */
+  color: white;
+  /* Replace with desired color */
 }
 
 .footer-copyright a:hover {
   text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  #hamburger-logo {
+    display: block;
+  }
+
+  .hamburger-pane a {
+    letter-spacing: 1.5px;
+    display: block;
+  }
+
+  .hamburger-pane a:hover {
+    display: block;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: x-large;
+  }
+
+  .hamburger-pane {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    color: #ccc;
+    transition: top 2s ease-in-out;
+    width: 100%;
+    height: 40%;
+    top: 60px;
+    left: 0;
+    transition: all 2s ease-in-out;
+    background-color: #06122d;
+  }
+
+
 }
