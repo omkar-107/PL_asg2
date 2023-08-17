@@ -357,6 +357,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
   height: 500px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -563,5 +564,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,61,149,1) 100%, rgb
     background-color: #06122d;
   }
 
-
+  .inst-wrap{
+    height: 800px;
+  }
+  .content-back{
+    height: 700px;
+  }
 }
