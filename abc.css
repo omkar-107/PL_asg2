@@ -27,7 +27,7 @@ li {
   margin: 0 auto;
   padding: 10px 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -61,10 +61,12 @@ li {
 }
 
 .navbar-menu {
-  width: 50%;
+  width: 40%;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  /* background-color:#1C3D87; */
+  margin-left: 40%;
 }
 
 #hamburger-logo {
